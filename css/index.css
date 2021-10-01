@@ -133,22 +133,6 @@ p {
   margin-bottom: 0;
 }
 
-.middle-content .boxes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-  width: 12.5%;
-  height: 100px;
-  margin: 20px 2.5%;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .middle-content .toptwo, .middle-content .bottomtwo{
     display:flex;
     flex-direction:row;
@@ -168,10 +152,28 @@ button{
     border-radius: 10%;
     padding: 2% 4%;
 }
-
+.middle-content .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.middle-content .boxes .box {
+  width: 12.5%;
+  height: 100px;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box:hover{
+  transition: ease 2s;
+  border-radius: 40%;
+}
 .boxone {
   background: teal;
 }
+
 .boxtw {
   background: gold;
 }
