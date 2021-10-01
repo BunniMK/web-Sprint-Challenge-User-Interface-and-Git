@@ -32,14 +32,20 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-    border: 3px solid grey;
 }
 header {
     width: 70%;
-    margin-left: 30%;
+    text-align: center;
+
 }
-header img{
-    
+.jumbo{
+    background-image: url(../img/jumbo.jpg);
+    background-repeat: no-repeat;
+    height: 20vh;
+    background-size: cover;
+    background-position:top center;
+    margin-bottom: 2%;
+    width: 50%;
 }
 header nav {
     width: 60%;
