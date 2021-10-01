@@ -39,15 +39,6 @@ header {
     margin: 0 auto;
 
 }
-.jumbo{
-    background-image: url(../img/jumbo.jpg);
-    background-repeat: no-repeat;
-    height: 16vh;
-    background-size: cover;
-    background-position:top center;
-    margin:0 26.9% 1%;
-    width: 800px;
-} 
 nav {
     width: 60%;
     display: flex;
@@ -60,7 +51,18 @@ nav {
 nav a {
     color: black;
     text-decoration: none;
+    margin: 0 6%;
 }
+
+.jumbo{
+    background-image: url(../img/jumbo.jpg);
+    background-repeat: no-repeat;
+    height: 16vh;
+    background-size: cover;
+    background-position:top center;
+    margin:0 26.9% 1%;
+    width: 800px;
+} 
 
 ol, ul {
 	list-style: none;
