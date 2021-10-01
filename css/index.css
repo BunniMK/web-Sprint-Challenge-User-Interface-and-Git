@@ -117,7 +117,9 @@ p {
   padding: 0 1%;
   padding-bottom: 20px;
 }
-
+.top-content .text-containerabout{
+    padding:0 0 2% 4%;
+}
 .middle-content {
   margin-bottom: 20px;
   border-bottom: 1px dashed black;
@@ -142,6 +144,26 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.middle-content .toptwo, .middle-content .bottomtwo{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: space-between;
+}
+.toptwo .wrap, .bottomtwo .wrap{
+    margin: 2%;
+    border-bottom: dashed 1px black;
+}
+.wrap .text-container{
+    margin-top: 3%;
+}
+button{
+    margin: 4% 0;
+    background-color: #FFF;
+    border-radius: 10%;
+    padding: 2% 4%;
 }
 
 .boxone {
@@ -188,7 +210,7 @@ p {
   justify-content: space-around;
 }
 
-.bottom-content .text-container {
+.bottom-content .text-container{
   padding-right: 4%;
 }
 
